@@ -1,0 +1,101 @@
+body{
+	width: 100%;
+	height: 100%;
+	background: url("");
+	padding: 0;
+	margin: 0;
+}
+nav{
+    width: auto;
+    padding:0;
+    margin-left: -15px;
+    margin-top: -15px;
+    background: #151719;
+	color: #C70039;
+	
+	
+}
+nav ul{
+	height: 400px;
+	padding: 0;
+	border: 1px solid red;
+	background: #151719;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  border: 1px solid red;
+}
+nav ul li a{
+	text-decoration: none;
+	display: inline-block;
+	margin-left:;
+	margin-top: -20px;
+	color: silver;
+
+}
+nav ul li{
+	border: 1px solid white;
+	margin-left: 20px;
+	padding: 10px 10px;
+	height:;
+}
+#container{
+	display: flex;
+}
+table{
+	justify-content: center;
+    display: flex;
+    width:;
+	text-align: center;
+
+	}
+  td{
+		padding: 15px;
+
+	}
+	.top-table{
+		background: #151719;
+		font-size: 15px;
+		color: white;
+	}
+	
+	
+	.btn1 a{
+		color: white;
+		text-decoration: none;
+		font-family: monospace;
+		background: #00AA00;
+		padding: 10px;
+		border: 2px solid green;
+	}
+
+	.btn2 a{
+		color: white;
+		text-decoration: none;
+		font-family: monospace;
+		background: #AA0000;
+		padding: 10px;
+		border: 2px solid black;
+	}
+	nav li:hover{
+		cursor: pointer;
+		background-color: green;
+
+	}
+	#buttons a:hover{
+		cursor: pointer;
+		background-color: rgba(0, 0, 0, 0.5);
+
+	}
+	#button a:hover{
+      opacity: 10;
+      background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	nav li div input{
+		background: none;
+}
